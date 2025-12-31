@@ -1,0 +1,11 @@
+.v-application{
+    font-family: "	HGP創英角ポップ体","Hiragino Kaku Gothic Pro","メイリオ", sans-serif!important;
+}
+
+.right-input input {
+  text-align: right;
+}
+
+.ime-disabled input {
+  ime-mode: disabled;
+}
