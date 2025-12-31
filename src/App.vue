@@ -185,7 +185,7 @@
     },
     mounted() {
       /*
-      this.axios.get('https://freelancepapa.com/TaxSavingCalculation/php/getExplanation.php?id=1')
+      this.axios.get('https://ji-develop.com/tax-saving-calculation/php/getExplanation.php?id=1')
         .then((r) => {
           var elements = document.getElementsByClassName('explain');
           alert(r.data.text);

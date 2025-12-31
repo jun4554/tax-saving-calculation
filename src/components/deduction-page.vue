@@ -250,7 +250,7 @@
     mounted: function() {
       // 小規模企業共済掛金控除の選択肢生成
       if (this.syoukibokyousaiItems.length == 0) {
-        this.axios.get('https://freelancepapa.com/TaxSavingCalculation/php/getSelectItem.php', {
+        this.axios.get('https://ji-develop.com/tax-saving-calculation/php/getSelectItem.php', {
           params: {
             id: 3
           }
@@ -268,7 +268,7 @@
 
       // 確定拠出年金掛金控除の選択肢生成
       if (this.yonmaruichiKItems.length == 0) {
-        this.axios.get('https://freelancepapa.com/TaxSavingCalculation/php/getSelectItem.php', {
+        this.axios.get('https://ji-develop.com/tax-saving-calculation/php/getSelectItem.php', {
           params: {
             id: 4
           }
@@ -286,7 +286,7 @@
 
       // 配偶者（特別）控除の選択肢生成
       if (this.partnerItems.length == 0) {
-        this.axios.get('https://freelancepapa.com/TaxSavingCalculation/php/getSelectItem.php', {
+        this.axios.get('https://ji-develop.com/tax-saving-calculation/php/getSelectItem.php', {
           params: {
             id: 5
           }
