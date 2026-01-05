@@ -257,8 +257,8 @@
         })
         .then((r) => {
           this.syoukibokyousaiItems.push({label: '', value: 0})
-          for (var i = 0; i < r.data.selectItemData.length; i++) {
-            this.syoukibokyousaiItems.push({label: Number(r.data.selectItemData[i].value).toLocaleString() + "円/月", value: Number(r.data.selectItemData[i].value)})
+          for (var i = 0; i < r.data.length; i++) {
+            this.syoukibokyousaiItems.push({label: Number(r.data[i].value).toLocaleString() + "円/月", value: Number(r.data[i].value)})
           }
         })
         .catch((e) => {
@@ -275,8 +275,8 @@
         })
         .then((r) => {
           this.yonmaruichiKItems.push({label: '', value: 0})
-          for (var i = 0; i < r.data.selectItemData.length; i++) {
-            this.yonmaruichiKItems.push({label: Number(r.data.selectItemData[i].value).toLocaleString() + "円/月", value: Number(r.data.selectItemData[i].value)})
+          for (var i = 0; i < r.data.length; i++) {
+            this.yonmaruichiKItems.push({label: Number(r.data[i].value).toLocaleString() + "円/月", value: Number(r.data[i].value)})
           }
         })
         .catch((e) => {
@@ -293,8 +293,8 @@
         })
         .then((r) => {
           this.partnerItems.push({label: '', value: 0})
-          for (var i = 0; i < r.data.selectItemData.length; i++) {
-            this.partnerItems.push({label: Number(r.data.selectItemData[i].value).toLocaleString() + "円", value: Number(r.data.selectItemData[i].value)})
+          for (var i = 0; i < r.data.length; i++) {
+            this.partnerItems.push({label: Number(r.data[i].value).toLocaleString() + "円", value: Number(r.data[i].value)})
           }
         })
         .catch((e) => {
